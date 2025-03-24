@@ -1,0 +1,7 @@
+pip install jmcomic -i https://pypi.org/project --upgrade
+pip install pillow
+pip install pyyaml 
+manhua = ['146417']  
+for id in manhua:
+  jmcomic.download_album(id,loadConfig)
+  
